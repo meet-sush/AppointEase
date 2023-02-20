@@ -1,7 +1,7 @@
+import Image from "next/image";
+import AppointmentImg from "../Assets/appointment.jpg";
 import AppointmentForm from "../components/AppointmentForm";
 import styles from "../styles/Appointment.module.css";
-import Image from "next/Image";
-import AppointmentImg from "../Assets/appointment.jpg";
 
 const appointment = () => {
   return (

@@ -85,7 +85,7 @@ const Footer = () => {
                       <a href="#">
                         <i
                           data-wow-delay="0.1s"
-                          class="fab fa-facebook-f  wow bounce"
+                          className="fab fa-facebook-f  wow bounce"
                         ></i>
                       </a>
                     </li>
@@ -93,7 +93,7 @@ const Footer = () => {
                       <a href="#">
                         <i
                           data-wow-delay="0.2s"
-                          class="fab fa-twitter  wow bounce"
+                          className="fab fa-twitter  wow bounce"
                         >
                           \e912
                         </i>
@@ -103,7 +103,7 @@ const Footer = () => {
                       <a href="#">
                         <i
                           data-wow-delay="0.3s"
-                          class="fab fa-linkedin-in  wow bounce"
+                          className="fab fa-linkedin-in  wow bounce"
                         ></i>
                       </a>
                     </li>
@@ -111,7 +111,7 @@ const Footer = () => {
                       <a href="#">
                         <i
                           data-wow-delay="0.4s"
-                          class="fab fa-instagram  wow bounce"
+                          className="fab fa-instagram  wow bounce"
                         ></i>
                       </a>
                     </li>

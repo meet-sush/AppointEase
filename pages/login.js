@@ -1,7 +1,7 @@
+import Image from "next/image";
+import LoginImg from "../Assets/log-in.jpg";
 import LoginForm from "../components/LoginForm";
 import styles from "../styles/Login.module.css";
-import LoginImg from "../Assets/log-in.jpg";
-import Image from "next/Image";
 const login = () => {
   return (
     <div className={`${styles.login__area} background__area `}>

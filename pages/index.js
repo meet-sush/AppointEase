@@ -1,14 +1,11 @@
-import Image from "next/Image";
+import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
+import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
+import PaidOutlinedIcon from "@mui/icons-material/PaidOutlined";
+import PermPhoneMsgOutlinedIcon from "@mui/icons-material/PermPhoneMsgOutlined";
+import Image from "next/image";
 import About from "../Assets/aboutUs.jpg";
-import Banner from "../Assets/banner-doctors.jpg";
 import WhyUs from "../Assets/why-us.jpg";
 import styles from "../styles/Home.module.css";
-import SearchIcon from "@material-ui/icons/Search";
-import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
-import AccessAlarmsIcon from "@mui/icons-material/AccessAlarms";
-import PermPhoneMsgOutlinedIcon from "@mui/icons-material/PermPhoneMsgOutlined";
-import PaidOutlinedIcon from "@mui/icons-material/PaidOutlined";
-import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
 
 export default function Home() {
   return (
