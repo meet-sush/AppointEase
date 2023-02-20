@@ -1,0 +1,46 @@
+.footer__area {
+  background: #e9fcfe;
+}
+.footer__area h3 {
+  color: #273f59;
+}
+.footer__content {
+  border-bottom: 2px solid #4e6e8a;
+  padding-bottom: 40px;
+}
+.footer__logo__area p {
+  margin-top: 20px;
+}
+.footer__area p {
+  font-size: 15px;
+  color: #726f8a;
+  text-align: left;
+}
+.footer__menu h3 {
+  margin-bottom: 25px;
+}
+.footer__content ul li {
+  margin-bottom: 10px;
+  transition: 0.5s;
+  color: #726f8a;
+}
+.footer__menu ul li a {
+  text-transform: capitalize;
+  color: #726f8a;
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer__content ul li:hover {
+  letter-spacing: 1.5px;
+}
+
+.copy__right span {
+  transition: 0.3s;
+  color: #726f8a;
+}
+.copy__right span:hover {
+  letter-spacing: 2px;
+}
+.contact__info h3 {
+  margin-bottom: 25px;
+}

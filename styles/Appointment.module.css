@@ -1,0 +1,15 @@
+.appointment__area {
+  padding: 50px 0;
+  position: relative;
+}
+
+.appointment__content__area {
+  z-index: 9;
+}
+.appointment__content h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.appointment__form__area {
+}

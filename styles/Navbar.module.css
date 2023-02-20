@@ -1,0 +1,35 @@
+.navbar__area {
+  padding: 30px 50px;
+}
+.logo {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.logo:hover {
+  color: #fff;
+}
+.logo a {
+  text-decoration: none;
+}
+.nabar__items li {
+  font-size: 20px;
+  padding: 0 20px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.nabar__items li:hover {
+  border: 1px #fff;
+}
+.nabar__items li a {
+  color: #fff;
+}
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.header__area {
+  padding-top: 20px;
+}
