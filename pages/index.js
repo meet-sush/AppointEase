@@ -10,13 +10,11 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={`${styles.home__area}`}>
-      {/* Banner areaa start */}
       <section>
         <div className={`${styles.banner__area}`}>
           <div className={`container vh-100`}>
             <div className="row align-items-center ">
-              <div className="col-md-3"></div>
-              <div className="col-md-6">
+              <div className="col-lg-10 col-md-12 col-sm-12">
                 <div className={`${styles.banner__content}`}>
                   <h1>We are here to help you </h1>
                   <p>
@@ -29,7 +27,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3"></div>
             </div>
           </div>
         </div>
@@ -61,15 +58,12 @@ export default function Home() {
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum.
                     </p>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco . Ut enim ad minim veniam, quis nostrud
-                      exercitation ullamco .
+                      ullamco . 
                     </p>
                   </div>
                 </div>

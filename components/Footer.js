@@ -9,7 +9,7 @@ const Footer = () => {
               <div className="col-lg-4">
                 <div className={`${styles.footer__logo__area}`}>
                   <a className={`${styles.logo}`} href="/">
-                    &#9739; Appointment Booking
+                    &#9739; AppointEase
                   </a>
                   <p>
                     This is Photoshop's version of Lorem Ipsum. Proin gravida

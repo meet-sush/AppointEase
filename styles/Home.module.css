@@ -28,7 +28,7 @@
   transform: translate(-50%, -50%);
 }
 .banner__content h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 800;
   color: #fff;
   text-transform: uppercase;
@@ -212,3 +212,45 @@
 .whyUs__img {
   padding: 30px;
 }
+
+
+
+@media screen and (max-width: 1440px) and (min-width: 1024px){  
+  .banner__content h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .banner__content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+  } 
+}
+/* @media screen and (min-width: 1440px)  {
+  .banner__content h1{
+    font-size: 45px;
+  }
+  .banner__content p {
+    font-size: 16px;
+  } 
+} */
+@media (max-width: 1024px) and (min-width: 768px)  {
+  .home-area p{
+    font-size: 14px;
+  }
+  .banner__content h1{
+    font-size: 35px;
+  }
+  .banner__content p {
+    font-size: 16px;
+
+    line-height: 30px;
+  }
+}
+
+/* .Home_banner__content__JMksh p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 30px;
+} */

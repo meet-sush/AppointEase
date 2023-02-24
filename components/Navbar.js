@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className={` navbarArea ${styles.header__area}`}>
         <nav className={`${styles.navbar__area} navbar navbar-expand-lg  `}>
           <a className={`${styles.logo} navbar-brand`} href="/">
-            &#9739; Appointment Booking
+            &#9739; AppointEase
           </a>
           <div
             className="collapse navbar-collapse justify-content-end"

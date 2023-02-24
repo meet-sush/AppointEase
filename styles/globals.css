@@ -173,12 +173,12 @@ a:focus {
   width: 100%;
 }
 .content__area {
-  top: 50%;
+  top: 60%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   background: #fefefe;
-  padding: 50px;
+  padding: 30px;
   border-radius: 10px;
 }
 .content__area label {
@@ -189,4 +189,26 @@ a:focus {
 .content__area label input {
   padding: 8px;
   outline: 0 solid;
+}
+@media (max-width: 1024px) and (min-width: 768px)  {
+
+.content__area {
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #fefefe;
+  padding: 30px;
+  border-radius: 10px;
+}
+.content__area label {
+  margin-bottom: 5px;
+  color: #273f59;
+  font-size: 12px;
+}
+.content__area label input {
+  padding: 5px;
+  outline: 0 solid;
+}
+
 }

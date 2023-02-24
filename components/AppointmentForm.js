@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
 import axios from "axios";
+import React, { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import styles from "../styles/Appointment.module.css";
@@ -65,7 +65,7 @@ function AppointmentForm() {
         <div className="form-group">
           <label>Select doctor:</label>
           <select
-            className="form-select mb-3"
+            className="form-select"
             name="selectedDoctor"
             value={formData.selectedDoctor}
             onChange={handleChange}
@@ -84,7 +84,7 @@ function AppointmentForm() {
         <div className="form-group">
           <label>Date:</label>
           <DatePicker
-            className="form-control mb-3"
+            className="form-control"
             selected={selectedDate}
             onChange={handleDateChange}
             required
@@ -93,7 +93,7 @@ function AppointmentForm() {
         <div className="form-group">
           <label>Select slot:</label>
           <select
-            className="form-select mb-3"
+            className="form-select"
             name="selectedSlot"
             value={formData.selectedSlot}
             onChange={handleChange}
@@ -109,7 +109,7 @@ function AppointmentForm() {
             ))}
           </select>
         </div>
-        <button type="submit" className="default__button box__button my-3">
+        <button type="submit" className="default__button box__button mt-2 ">
           Make appointment
         </button>
       </form>
